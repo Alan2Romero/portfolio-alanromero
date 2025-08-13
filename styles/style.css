@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header_menu{
+    display:flex;
+    gap: 80px;
+
+}
+
+.FotoPortfolio{
+    width: 35%;
+}
+
+.header_menu_link{
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    color:#22D4FD;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+body{
+    background-color:black;
+    color: white;
+    box-sizing: border-box;
+}
+
+strong{
+    color:#22D4FD;
+}
+
+.presentacion_contenido_titulo{
+    font-size: 2.25rem;
+    font-family: "Krona One", sans-serif;
+}
+
+.presentacion_contenido_texto{
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.presentacion{
+    display:flex;
+    align-items: center;
+    padding: 7% 15%;
+    gap:82px;
+    justify-content: space-between;
+}
+
+.presentacion_contenido{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion_enlaces{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.presentacion_enlaces_subtitulo{
+    font-family: 'Krona One', sans serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.presentacion_enlaces_link{
+    text-align: center;
+    width:50%;
+    padding:21.5px 0;
+    border: 2px solid #22D4FD;
+    border-radius: 8px;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #F6F6F6;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.presentacion_enlaces_link:hover{
+
+    background-color: #272727;
+}
+
+.footer{
+    background-color: #22D4FD;
+    padding: 24px;
+    color:black;
+    font-family:  "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+@media (max-width: 1200px){
+    .presentacion{
+        flex-direction:column-reverse;
+        padding:5%;
+    }
+
+    .header{
+        padding: 10%;
+    }
+
+    .header_menu{
+        justify-content: center;
+    }
+
+    .presentacion_contenido{
+        width:auto;
+    }
+}
