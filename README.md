@@ -11,5 +11,6 @@
 
 ### Alan Romero
 
-### Linkedin: https://www.linkedin.com/school/aluracursos/
+### Linkedin: https://www.linkedin.com/in/alan-joel-romero-76352b262/
+
 
